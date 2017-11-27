@@ -95,7 +95,7 @@ execute "hi MatchParen "   . s:ColorMode . "fg=" . s:glacier.xterm11[s:ArrayBit]
 execute "hi SpecialKey "   . s:ColorMode . "fg=" . s:glacier.xterm15[s:ArrayBit] . " " . s:ColorMode . "bg=" . s:glacier.xterm4[s:ArrayBit] . " " . s:ColorMode . "=none"
 execute "hi Folded "       . s:ColorMode . "fg=" . s:glacier.xterm15[s:ArrayBit] . " " . s:ColorMode . "bg=" . s:glacier.xterm4[s:ArrayBit] . " " . s:ColorMode . "=none"
 execute "hi StatusLine "   . s:ColorMode . "fg=" . s:glacier.xterm15[s:ArrayBit] . " " . s:ColorMode . "bg=" . s:glacier.xterm4[s:ArrayBit] . " " . s:ColorMode . "=none"
-execute "hi StatusLineNC " . s:ColorMode . "fg=" . s:glacier.xterm15[s:ArrayBit] . " " . s:ColorMode . "bg=" . s:glacier.xterm4[s:ArrayBit] . " " . s:ColorMode . "=none"
+execute "hi StatusLineNC " . s:ColorMode . "fg=" . s:glacier.xterm6[s:ArrayBit] . " " . s:ColorMode . "bg=" . s:glacier.xterm4[s:ArrayBit] . " " . s:ColorMode . "=none"
 
 " }}
 
